@@ -46,8 +46,8 @@ This project is an **Expense Management System** built with Node.js, Express.js,
 
 Create a `.env` file in the root directory with the following variables:
 
-DB_POSTGRES_DATABASE_URL="postgresql://<username>:<password>@<host>:<port>/<database>"
-JWT_SECRET="<your-secret-key>"
+DB_POSTGRES_DATABASE_URL="postgresql://"username":"password"@"host":"port"/"database""
+JWT_SECRET="your-secret-key"
 
 get secret key with: node --> node -e "console.log(require('crypto').randomBytes(64).toString('hex'))"
 
@@ -179,6 +179,5 @@ Below are the examples of testing APIs using Postman. Make sure to set the `Auth
 - **Method:** GET
 - **Endpoint:** `/transaction?month=2025-01&account=1&limit=10&page=1`
 - **Endpoint:** `/transaction?summary=true&month=2025-01&account=1&limit=10&page=2`
-
 
 
