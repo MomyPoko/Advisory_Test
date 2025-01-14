@@ -46,10 +46,18 @@ This project is an **Expense Management System** built with Node.js, Express.js,
 
 Create a `.env` file in the root directory with the following variables:
 
-DB_POSTGRES_DATABASE_URL="postgresql://"username":"password"@"host":"port"/"database""
-JWT_SECRET="your-secret-key"
+- DB_POSTGRES_DATABASE_URL="postgresql://"username":"password"@"host":"port"/"database""
+- JWT_SECRET="your-secret-key"
 
 get secret key with: node --> node -e "console.log(require('crypto').randomBytes(64).toString('hex'))"
+
+---
+
+## Database Schema (ERD)
+
+Below is the Entity-Relationship Diagram (ERD) of the database schema:
+
+![Database ERD](./ERD.png)
 
 ---
 
