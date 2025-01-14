@@ -57,8 +57,6 @@ get secret key with: node --> node -e "console.log(require('crypto').randomBytes
 
 Below is the Entity-Relationship Diagram (ERD) of the database schema:
 
-![Database ERD](./server/ERD.png)
-
 ---
 
 ## Testing API with Postman
